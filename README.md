@@ -1,0 +1,1 @@
+This repository demonstrates a subtle CSS specificity bug.  The problem arises from equal specificity selectors leading to unexpected style application. The `bug.css` file contains the problematic code, resulting in unpredictable color rendering in certain browsers. The `bugSolution.css` file provides a corrected version demonstrating how to resolve this issue.
