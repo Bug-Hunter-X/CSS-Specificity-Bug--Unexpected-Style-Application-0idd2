@@ -1,0 +1,13 @@
+To fix this, we need to increase the specificity of the selector to ensure it overrides the more generic selector. One approach is to add an extra class to the div:
+
+```css
+.container div p {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+```
+
+This increases the specificity and ensures that `color: blue` is applied correctly only where intended.
